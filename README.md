@@ -1,31 +1,7 @@
-# 📂 Estrutura Base para Projetos em PHP Puro
+# 📂 Estrutura Base para Componentização em PHP Puro
 
-Este repositório serve como **modelo inicial** para projetos em **PHP puro**, sem uso de frameworks.  
-Ele organiza as pastas de forma simples e clara, ajudando a manter o código limpo, separado e pronto para evoluir.
-
----
-
-## 🚀 Estrutura de Pastas
-
-```bash
-SITE-DINAMICO/
-│
-├── app/                 # Código-fonte da aplicação
-│   ├── data/            # Dados simulados (arrays, configs, JSON ou simulação de banco)
-│   └── components/      # Componentes reutilizáveis (estáticos ou dinâmicos)
-│       ├── header.php   # Exemplo de componente estático
-│       ├── footer.php   # Exemplo de componente estático
-│       └── cardProduto.php # Exemplo de componente dinâmico (recebe props/variáveis)
-│
-├── public/              # Arquivos acessíveis pelo navegador
-│   ├── assets/          # Arquivos estáticos (front-end)
-│   │   ├── css/         # Estilos CSS
-│   │   ├── imgs/        # Imagens
-│   │   └── js/          # Scripts JavaScript
-│   └── index.php        # Entrada principal do site
-│
-└── README.md            # Documentação do projeto
-```
+Este repositório serve como base de uma landing page de barbearia, estruturada para facilitar a componentização em PHP puro, sem uso de frameworks.
+A organização das pastas foi pensada para ser simples e clara, permitindo separar os componentes de forma limpa e pronta para evolução do projeto.
 
 ---
 
@@ -55,13 +31,4 @@ php -S localhost:3000 -t public
 - **`data/`** → dados centralizados (arrays, configs, JSON, etc.).  
 - **`public/`** → tudo que o navegador acessa diretamente (CSS, JS, imagens, index).
 
----
-
-## 📝 Boas práticas
-
-- Crie **componentes pequenos** e reutilizáveis.  
-- Use nomes descritivos (`cardProduto.php`, `listaUsuarios.php`).  
-- Centralize dados em `app/data/`.  
-- Mantenha arquivos de estilo e scripts dentro de `public/assets/`.  
-- Use `include` ou `require` para chamar componentes dentro do `index.php`.
 
