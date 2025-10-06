@@ -10,6 +10,12 @@ body {
   height: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 85px;
+}
+
+
 body {
   padding-top: 85px;
   background: #0e0f11;
@@ -76,7 +82,7 @@ img {
   flex: 1;
 
   &:hover {
-    box-shadow: inset 0 0 0 999px rgba(255,255,255,.12);
+    box-shadow: inset 0 0 0 999px rgba(255, 255, 255, 0.12);
   }
 }
 
@@ -90,9 +96,8 @@ img {
   z-index: 10;
   width: 100%;
   background: #14161a; /* var(--carvao) */
-  border-bottom: 1px solid rgba(205, 210, 218, 0.18); /* leve profundidade sem exagero */
+  border-bottom: 1px solid rgba(205, 210, 218, 0.18);
 
-  /* container do header */
   .cabecalhoContainer {
     display: flex;
     align-items: center;
@@ -101,7 +106,6 @@ img {
     padding: 12px 20px;
   }
 
-  /* logomarca compacta */
   .logomarca {
     display: inline-flex;
     align-items: center;
@@ -113,7 +117,6 @@ img {
     }
   }
 
-  /* navegação */
   .navegacao {
     display: flex;
     align-items: center;
@@ -139,16 +142,9 @@ img {
         text-decoration: underline 2px #fff;
         outline: none;
       }
-
-      /* estado ativo manual (adicione aria-current="page" no link correspondente) */
-      &[aria-current="page"] {
-        color: #ffffff;
-        background-color: rgba(255, 255, 255, 0.06);
-      }
     }
   }
 
-  /* CTA compacto e funcional no header */
   .botaoCtaHeader {
     display: flex;
     align-items: center;
@@ -162,7 +158,7 @@ img {
     text-decoration: none;
 
     &:hover {
-      box-shadow: inset 0 0 0 999px rgba(255,255,255,.12);
+      box-shadow: inset 0 0 0 999px rgba(255, 255, 255, 0.12);
     }
 
     .ctaIcone {
@@ -173,13 +169,6 @@ img {
   }
 }
 
-/* foco consistente */
-a:focus-visible,
-button:focus-visible,
-label:focus-visible {
-  outline: 2px solid rgba(205, 210, 218, 0.85);
-  outline-offset: 2px;
-}
 /* ===================== FIM: HEADER ===================== */
 
 /* ===================== INÍCIO: HERO ===================== */
@@ -188,11 +177,6 @@ label:focus-visible {
   border-bottom: 1px solid rgba(205, 210, 218, 0.1);
   padding: 24px 0; /* + espaço no topo p/ header fixo */
   color: var(--prata);
-
-  /* Seções ancoradas não “ficarem embaixo” do header fixo */
-  section[id] {
-    scroll-margin-top: 84px;
-  }
 
   .heroContainer {
     display: flex;
@@ -231,8 +215,6 @@ label:focus-visible {
     gap: 12px;
     margin-bottom: 14px;
   }
-
-  /* CTA PRIMÁRIO do HERO — identidade própria (ouro sutil) */
 
   /* Botão secundário (mantive o seu, só dei leve polimento) */
   .botaoSecundario {
@@ -317,13 +299,11 @@ label:focus-visible {
     }
   }
 
-  /* Grid fluid sem media queries */
   .portfolioGrid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 16px;
 
-    /* Card */
     .portfolioItem {
       background: #15181d;
       border: 1px solid rgba(205, 210, 218, 0.12);
@@ -363,7 +343,7 @@ label:focus-visible {
         left: 8px;
         padding: 4px 8px;
         border-radius: 999px;
-        font-size: 0.8rem;
+        font-size: 12px;
         font-weight: 700;
         letter-spacing: 0.2px;
         color: #fff;
@@ -428,7 +408,6 @@ label:focus-visible {
         background: #0e0f11;
       }
 
-      /* conteúdo ocupa o espaço e empurra o botão para a base */
       .cardConteudo {
         display: flex;
         align-items: center;
@@ -470,7 +449,6 @@ label:focus-visible {
     }
   }
 
-  /* grid responsivo */
   .gridPlanos {
     display: grid;
     gap: 18px;
@@ -552,7 +530,7 @@ label:focus-visible {
           background 0.2s ease;
 
         &:hover {
-          box-shadow: inset 0 0 0 999px rgba(255,255,255,.12);
+          box-shadow: inset 0 0 0 999px rgba(255, 255, 255, 0.12);
         }
       }
 
