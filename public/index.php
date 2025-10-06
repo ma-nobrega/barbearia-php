@@ -28,6 +28,7 @@
 
             <nav class="navegacao">
                 <div class="listaLinks">
+                    <a href="#inicio">Inicio</a>
                     <a href="#portfolio">Portfólio</a>
                     <a href="#barbeiros">Barbeiros</a>
                     <a href="#planos">Planos</a>
@@ -35,23 +36,24 @@
                     <a href="#contato">Contato</a>
                 </div>
 
-                <a
-                    class="botaoCtaHeader"
-                    href="https://wa.me/5599999999999"
-                    target="_blank">
-                    <svg class="ctaIcone" viewBox="0 0 24 24" aria-hidden="true">
-                        <path
-                            d="M20.52 3.48A11.94 11.94 0 0 0 12.06 0C5.5 0 .2 5.3.2 11.85c0 2.09.55 4.06 1.6 5.83L0 24l6.48-1.7a11.7 11.7 0 0 0 5.58 1.42h.01c6.56 0 11.86-5.3 11.86-11.85 0-3.17-1.24-6.15-3.41-8.39ZM12.07 21.2a9.36 9.36 0 0 1-4.77-1.31l-.34-.2-3.84 1 1.03-3.74-.22-.35a9.28 9.28 0 0 1-1.43-4.95c0-5.17 4.21-9.37 9.39-9.37 2.51 0 4.86.98 6.63 2.76a9.27 9.27 0 0 1 2.75 6.61c0 5.17-4.22 9.35-9.4 9.35Zm5.47-7.01c-.3-.15-1.77-.87-2.05-.97-.27-.1-.46-.15-.66.15-.19.3-.76.97-.94 1.17-.17.2-.35.22-.65.08-.3-.15-1.26-.46-2.4-1.46-.89-.79-1.5-1.77-1.68-2.07-.17-.3-.02-.46.13-.61.14-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.66-1.6-.91-2.2-.24-.58-.48-.5-.66-.51h-.56c-.18 0-.46.07-.7.35-.24.3-.92.9-.92 2.2 0 1.3.94 2.56 1.08 2.74.15.2 1.85 2.82 4.49 3.96.63.27 1.12.43 1.5.55.63.2 1.2.17 1.65.1.5-.07 1.77-.73 2.02-1.45.25-.7.25-1.29.18-1.45-.07-.15-.27-.24-.56-.38Z" />
-                    </svg>
-                    <span>Agendar</span>
-                </a>
+
             </nav>
+            <a
+                class="botaoCtaHeader"
+                href="https://wa.me/5599999999999"
+                target="_blank">
+                <svg class="ctaIcone" viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                        d="M20.52 3.48A11.94 11.94 0 0 0 12.06 0C5.5 0 .2 5.3.2 11.85c0 2.09.55 4.06 1.6 5.83L0 24l6.48-1.7a11.7 11.7 0 0 0 5.58 1.42h.01c6.56 0 11.86-5.3 11.86-11.85 0-3.17-1.24-6.15-3.41-8.39ZM12.07 21.2a9.36 9.36 0 0 1-4.77-1.31l-.34-.2-3.84 1 1.03-3.74-.22-.35a9.28 9.28 0 0 1-1.43-4.95c0-5.17 4.21-9.37 9.39-9.37 2.51 0 4.86.98 6.63 2.76a9.27 9.27 0 0 1 2.75 6.61c0 5.17-4.22 9.35-9.4 9.35Zm5.47-7.01c-.3-.15-1.77-.87-2.05-.97-.27-.1-.46-.15-.66.15-.19.3-.76.97-.94 1.17-.17.2-.35.22-.65.08-.3-.15-1.26-.46-2.4-1.46-.89-.79-1.5-1.77-1.68-2.07-.17-.3-.02-.46.13-.61.14-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.66-1.6-.91-2.2-.24-.58-.48-.5-.66-.51h-.56c-.18 0-.46.07-.7.35-.24.3-.92.9-.92 2.2 0 1.3.94 2.56 1.08 2.74.15.2 1.85 2.82 4.49 3.96.63.27 1.12.43 1.5.55.63.2 1.2.17 1.65.1.5-.07 1.77-.73 2.02-1.45.25-.7.25-1.29.18-1.45-.07-.15-.27-.24-.56-.38Z" />
+                </svg>
+                <span>Agendar</span>
+            </a>
         </div>
     </header>
     <!-- ===================== FIM: HEADER ===================== -->
 
     <!-- ===================== INÍCIO: HERO ===================== -->
-    <section id="hero" class="hero">
+    <section id="inicio" class="hero">
         <div class="container heroContainer">
             <div class="heroConteudo">
                 <span class="heroSelo">Desde 2015 • 4,9★</span>
@@ -275,7 +277,7 @@
 
                         <a
                             class="botaoCta"
-                            href="https://wa.me/5599999999999?text=Quero%20agendar%20com%20Lucas"
+                            href="https://wa.me/5599999999999"
                             target="_blank"
                             rel="noopener">Agendar com Lucas</a>
                     </div>
@@ -292,7 +294,7 @@
                         <p class="subtitulo">Design & Pele Sensível</p>
                         <a
                             class="botaoCta"
-                            href="https://wa.me/5599999999999?text=Quero%20agendar%20com%20Carlos"
+                            href="https://wa.me/5599999999999"
                             target="_blank"
                             rel="noopener">Agendar com Carlos</a>
                     </div>
@@ -309,7 +311,7 @@
                         <p class="subtitulo">Rituais & Viking</p>
                         <a
                             class="botaoCta"
-                            href="https://wa.me/5599999999999?text=Quero%20agendar%20com%20Renato"
+                            href="https://wa.me/5599999999999"
                             target="_blank"
                             rel="noopener">Agendar com Renato</a>
                     </div>
@@ -573,7 +575,7 @@
                         height="36" />
                 </div>
                 <p class="rodapeDesc">
-                    Estilo de cavaleiro, precisão de artesão. Grafite &amp; prata, do
+                    Estilo de cavaleiro, precisão de artesão.<br> Grafite &amp; prata, do
                     jeito certo.
                 </p>
             </div>
