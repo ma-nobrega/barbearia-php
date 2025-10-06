@@ -250,7 +250,7 @@
 
             <div class="listaBarbeiros">
                 <!-- Card 1 -->
-                <div class="cardBarbeiro barber--joao">
+                <div class="cardBarbeiro">
                     <img
                         class="fotoBarbeiro"
                         src="./assets/imgs/barbeiros/barbeiro1.png"
@@ -266,7 +266,7 @@
                 </div>
 
                 <!-- Card 2 -->
-                <div class="cardBarbeiro barber--lucas">
+                <div class="cardBarbeiro">
                     <img
                         class="fotoBarbeiro"
                         src="./assets/imgs/barbeiros/barbeiro2.png"
@@ -284,7 +284,7 @@
                 </div>
 
                 <!-- Card 3 -->
-                <div class="cardBarbeiro barber--carlos">
+                <div class="cardBarbeiro">
                     <img
                         class="fotoBarbeiro"
                         src="./assets/imgs/barbeiros/barbeiro3.png"
@@ -301,7 +301,7 @@
                 </div>
 
                 <!-- Card 4 -->
-                <div class="cardBarbeiro barber--renato">
+                <div class="cardBarbeiro">
                     <img
                         class="fotoBarbeiro"
                         src="./assets/imgs/barbeiros/barbeiro4.png"
