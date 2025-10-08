@@ -130,10 +130,9 @@
                         </div>
                     </div>
                     <figcaption class="portfolioLegenda">
-                        Fade médio — laterais limpas e topo texturizado.
+                        Pompadour com fade médio — laterais baixas e topo texturizado com volume frontal.
                     </figcaption>
                 </div>
-
                 <!-- Item 2 -->
                 <div class="portfolioItem">
                     <div class="comparador">
@@ -151,10 +150,9 @@
                         </div>
                     </div>
                     <figcaption class="portfolioLegenda">
-                        Barba na navalha — contorno limpo e hidratação.
+                        Transformação: longo → clássico curto — laterais curtas, topo penteado.
                     </figcaption>
                 </div>
-
                 <!-- Item 3 -->
                 <div class="portfolioItem">
                     <div class="comparador">
@@ -172,10 +170,9 @@
                         </div>
                     </div>
                     <figcaption class="portfolioLegenda">
-                        Clássico — caimento natural e acabamento em tesoura.
+                        Buzz cut com fade alto (skin fade) — acabamento à máquina e contornos limpos.
                     </figcaption>
                 </div>
-
                 <!-- Item 4 -->
                 <div class="portfolioItem">
                     <div class="comparador">
@@ -193,9 +190,10 @@
                         </div>
                     </div>
                     <figcaption class="portfolioLegenda">
-                        Desenho de barba — simetria e volume equilibrado.
+                        Barba longa → média — redução de volume, desenho na navalha e bigode integrado.
                     </figcaption>
                 </div>
+                <!-- Item 5 -->
                 <div class="portfolioItem">
                     <div class="comparador">
                         <div class="imgWrap antes">
@@ -212,9 +210,10 @@
                         </div>
                     </div>
                     <figcaption class="portfolioLegenda">
-                        Desenho de barba — simetria e volume equilibrado.
+                        Longo → curto texturizado — laterais baixas e topo com volume; finalização fosca.
                     </figcaption>
                 </div>
+                <!-- Item 6 -->
                 <div class="portfolioItem">
                     <div class="comparador">
                         <div class="imgWrap antes">
@@ -231,7 +230,7 @@
                         </div>
                     </div>
                     <figcaption class="portfolioLegenda">
-                        Desenho de barba — simetria e volume equilibrado.
+                        Corte militar + fade baixo — comprimento uniforme curto e contornos definidos.
                     </figcaption>
                 </div>
             </div>
@@ -247,9 +246,8 @@
                     Mestres do aço e do detalhe — escolha quem combina com seu estilo.
                 </p>
             </header>
-
             <div class="listaBarbeiros">
-                <!-- Card 1 -->
+                <!-- Barbeiro 1 -->
                 <div class="cardBarbeiro">
                     <img
                         class="fotoBarbeiro"
@@ -264,8 +262,7 @@
                             target="_blank">Agendar com João</a>
                     </div>
                 </div>
-
-                <!-- Card 2 -->
+                <!-- Barbeiro 2 -->
                 <div class="cardBarbeiro">
                     <img
                         class="fotoBarbeiro"
@@ -282,8 +279,7 @@
                             rel="noopener">Agendar com Lucas</a>
                     </div>
                 </div>
-
-                <!-- Card 3 -->
+                <!-- Barbeiro 3 -->
                 <div class="cardBarbeiro">
                     <img
                         class="fotoBarbeiro"
@@ -299,8 +295,7 @@
                             rel="noopener">Agendar com Carlos</a>
                     </div>
                 </div>
-
-                <!-- Card 4 -->
+                <!-- Barbeiro 4 -->
                 <div class="cardBarbeiro">
                     <img
                         class="fotoBarbeiro"
@@ -412,7 +407,7 @@
             </header>
 
             <div class="depoGrid">
-                <!-- Card 1 -->
+                <!-- depoimento 1 -->
                 <div class="depoCard">
                     <div class="depoAutor">
                         <img class="depoAvatar" src="./assets/imgs/avaliacoes/1.png" alt="" />
@@ -427,8 +422,7 @@
                         novo!”
                     </p>
                 </div>
-
-                <!-- Card 2 -->
+                <!-- depoimento 2 -->
                 <div class="depoCard">
                     <div class="depoAutor">
                         <img class="depoAvatar" src="./assets/imgs/avaliacoes/2.png" alt="" />
@@ -442,8 +436,7 @@
                         “Detalhe no fade que poucos têm. Pontualidade e cuidado extremo.”
                     </p>
                 </div>
-
-                <!-- Card 3 -->
+                <!-- depoimento 3 -->
                 <div class="depoCard">
                     <div class="depoAutor">
                         <img class="depoAvatar" src="./assets/imgs/avaliacoes/3.png" alt="" />
@@ -458,8 +451,7 @@
                         pensar.”
                     </p>
                 </div>
-
-                <!-- Card 4 -->
+                <!-- depoimento 4 -->
                 <div class="depoCard">
                     <div class="depoAutor">
                         <img class="depoAvatar" src="./assets/imgs/avaliacoes/4.png" alt="" />
@@ -475,7 +467,6 @@
                     </p>
                 </div>
             </div>
-
             <p class="depoRodape">
                 <a class="depoLink" href="#" target="_blank" rel="noopener">Ver todas as avaliações</a>
                 ou
